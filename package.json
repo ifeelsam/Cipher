@@ -1,6 +1,6 @@
 {
-  "name": "@cipher/sdk",
-  "version": "0.1.0",
+  "name": "cipherscore-sdk",
+  "version": "0.0.1",
   "description": "TypeScript SDK for CipherScore API",
   "type": "module",
   "main": "dist/index.js",
@@ -12,9 +12,28 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist", "README.md"],
-  "keywords": ["cipher", "sdk", "solana", "credit", "score", "api"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "cipher",
+    "sdk",
+    "solana",
+    "credit",
+    "score",
+    "api"
+  ],
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ifeelsam/CipherScore.git",
+    "directory": "packages/cipher-sdk"
+  },
+  "homepage": "https://github.com/ifeelsam/CipherScore/tree/main/packages/cipher-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/ifeelsam/CipherScore/issues"
+  },
   "sideEffects": false,
   "engines": {
     "node": ">=18",

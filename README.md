@@ -1,4 +1,4 @@
-# @cipher/sdk
+# cipherscore-sdk
 
 A minimal TypeScript SDK for the CipherScore API.
 
@@ -6,18 +6,18 @@ A minimal TypeScript SDK for the CipherScore API.
 
 Using Bun (preferred):
 ```bash
-bun add @cipher/sdk
+bun add cipherscore-sdk
 ```
 
 Using npm:
 ```bash
-npm install @cipher/sdk
+npm install cipherscore-sdk
 ```
 
 ## Usage
 
 ```ts
-import { CipherSDK } from '@cipher/sdk'
+import { CipherSDK } from 'cipherscore-sdk'
 
 const sdk = new CipherSDK({
   // default base is 'https://api.cipherscore.xyz'
